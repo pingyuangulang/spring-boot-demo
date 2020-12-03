@@ -16,6 +16,8 @@
     <fastjson.version>1.2.70</fastjson.version>
     <jackson.version>2.9.0</jackson.version>
     <validator.version>4.3.1.Final</validator.version>
+    <guava.version>30.0-jre</guava.version>
+    <commons-lang3.version>3.11</commons-lang3.version>
   </properties>
 
   <dependencies>
@@ -39,6 +41,18 @@
       <artifactId>lombok</artifactId>
       <version>${lombok.version}</version>
     </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>${guava.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${commons-lang3.version}</version>
+    </dependency>
+
+
   </dependencies>
 
   <build>
