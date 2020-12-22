@@ -11,6 +11,8 @@ import java.util.List;
 @Data
 public class MongoCmd {
 
+    private String _id;
+
     private String name;
 
     private Integer age;

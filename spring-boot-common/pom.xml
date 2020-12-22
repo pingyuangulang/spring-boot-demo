@@ -18,6 +18,7 @@
     <validator.version>4.3.1.Final</validator.version>
     <guava.version>30.0-jre</guava.version>
     <commons-lang3.version>3.11</commons-lang3.version>
+    <commons-collections4.version>4.4</commons-collections4.version>
   </properties>
 
   <dependencies>
@@ -51,6 +52,12 @@
       <artifactId>commons-lang3</artifactId>
       <version>${commons-lang3.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-collections4</artifactId>
+      <version>${commons-collections4.version}</version>
+    </dependency>
+
 
 
   </dependencies>

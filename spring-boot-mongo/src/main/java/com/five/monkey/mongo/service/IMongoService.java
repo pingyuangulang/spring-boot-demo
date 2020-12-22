@@ -31,4 +31,19 @@ public interface IMongoService {
      * @return
      */
     List<MongoVo> query(MongoCmd cmd);
+
+    /**
+     * _id存在则更新,不存在则插入
+     * @param cmd
+     * @return
+     */
+    MongoVo save(MongoCmd cmd);
+
+    /**
+     * 根据query条件更新
+     * @param query
+     * @param cmd
+     * @return
+     */
+    List<MongoVo> update(MongoCmd query, MongoCmd cmd);
 }

@@ -9,6 +9,8 @@ public class BootConstant {
 
     public static class MongoKey {
 
+        public static final String _ID = "_id";
+
         public static final String NAME = "name";
 
         public static final String AGE = "age";
